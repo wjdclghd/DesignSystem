@@ -24,14 +24,6 @@
         "identifier" : "5596B11C2F8929D2002D13CA",
         "name" : "DesignSystemCITests"
       }
-    },
-    {
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:DesignSystemCI.xcodeproj",
-        "identifier" : "5596B1262F8929D2002D13CA",
-        "name" : "DesignSystemCIUITests"
-      }
     }
   ],
   "version" : 1
