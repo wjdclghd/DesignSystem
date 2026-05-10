@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 //
 //  Package.swift
 //  DesignSystem
@@ -26,11 +26,14 @@ let package = Package(
         .target(
             name: "DesignSystem",
             dependencies: [
-                
+
             ],
             path: "Sources/DesignSystem",
+            resources: [
+                .process("Resources")
+            ],
             linkerSettings: [
-                
+
             ]
         ),
         .testTarget(
