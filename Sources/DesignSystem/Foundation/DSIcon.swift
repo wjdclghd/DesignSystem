@@ -11,7 +11,7 @@ public enum DSIcon {
     public static let xmark               = Image("ic_search_delete_button", bundle: .module)
     public static let arrowUpLeft         = Image("ic_search_up_button",     bundle: .module)
     public static let spinner             = Image("ic_spinner",              bundle: .module)
-    public static let lineThreeHorizontal = Image("ic_line_3_horizontal",    bundle: .module)
+    public static let menuButton           = Image("ic_menu_button",          bundle: .module)
 }
 
 // MARK: - Preview
@@ -60,5 +60,5 @@ private let iconItems: [(String, Image)] = [
     ("xmark",               DSIcon.xmark),
     ("arrowUpLeft",         DSIcon.arrowUpLeft),
     ("spinner",             DSIcon.spinner),
-    ("lineThreeHorizontal", DSIcon.lineThreeHorizontal)
+    ("menuButton",          DSIcon.menuButton)
 ]
